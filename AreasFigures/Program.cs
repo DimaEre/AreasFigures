@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Specialized;
 class Figur
 {
@@ -94,15 +94,15 @@ class Figur
         }
         if (a == 1)
         {
-            fperimetr(b, ints);
+            Console.WriteLine(fperimetr(b, ints));
         }
         else if (a == 2)
         {
-            farea(b, ints);
+            Console.WriteLine(farea(b, ints));
         }
         else if (a == 3)
         {
-            fperimetr(b, ints);
+            Console.WriteLine(fperimetr(b, ints));
             a = 2;
             function(a,b);
         }
